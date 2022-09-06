@@ -1,0 +1,254 @@
+@media (min-width: 900px){
+html {
+  background-color: #ADD8E6;
+  min-height: 1000px;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  color: #101820FF;
+  padding: 10px;
+
+}
+
+.box {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #8AAAE5;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #FCEDDA;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #101820FF;
+}
+
+
+
+input[type="checkbox"] {
+  margin: 20px;
+  min-width: 45px;
+  min-height: 45px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 200px;
+  color: #101820FF;
+}
+
+
+button {
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 20%;
+  border-color: transparent;
+  background-color: #FCEDDA;
+  color: #101820FF;
+  font-size: 40px;
+  padding-bottom: 6px;
+  border-width: 0;
+
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  font-weight: 200;
+  width: 500px;
+}
+
+}
+
+@media (max-width: 900px){
+  html {
+    background-color: #ADD8E6;
+    min-height: 800px;
+    font-family: 'Montserrat';
+  }
+
+  h1 {
+    color: #101820FF;
+    font-size: 50px;
+    padding: 10px;
+  }
+
+  .box {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #8AAAE5;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  #heading {
+    background-color: #FCEDDA;
+    text-align: center;
+  }
+
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #101820FF;
+  }
+
+    input[type="checkbox"] {
+      margin: 20px;
+      min-width: 45px;
+      min-height: 45px;
+    }
+
+    p {
+      margin: 0;
+      padding: 20px;
+      font-size: 35px;
+      font-weight: 320;
+      color: #101820FF;
+    }
+
+    input[type="text"] {
+      text-align: center;
+      height: 60px;
+      top: 10px;
+      border: none;
+      background: transparent;
+      font-size: 30px;
+      font-weight: 200;
+      width: 400px;
+    }
+
+    button {
+      min-height: 65px;
+      width: 65px;
+      border-radius: 20%;
+      border-color: transparent;
+      background-color: #FCEDDA;
+      color: #101820FF;
+      font-size: 50px;
+      padding-bottom: 6px;
+      border-width: 0;
+    }
+}
+
+/* Mobile Phone size styling */
+
+@media (max-width: 576px){
+  html {
+    background-color: #ADD8E6;
+    min-height: 700px;
+    font-family: 'helvetica neue';
+  }
+
+  h1 {
+    color: #101820FF;
+    font-size: 50px;
+    padding: 10px;
+  }
+
+  .box {
+    max-width: 80%;
+    margin: 50px auto;
+    background: #8AAAE5;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 1px;
+  }
+
+  #heading {
+    background-color: #FCEDDA;
+    text-align: center;
+  }
+
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #101820FF;
+  }
+
+  input[type="checkbox"] {
+    margin: 20px;
+    width: 35px;
+    height: 35px;
+  }
+
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #101820FF;
+  }
+
+
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 35px;
+    font-weight: 200;
+    width: 400px;
+
+  }
+
+  button {
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 20%;
+    border-color: transparent;
+    background-color: #FCEDDA;
+    color: #101820FF;
+    font-size: 50px;
+    padding-bottom: 6px;
+    border-width: 0;
+    text-align: center;
+  }
+
+}
+/* Common style for all screen sizes */
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #FCEDDA;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #101820FF;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: #101820FF;
+  text-align: center;
+}
